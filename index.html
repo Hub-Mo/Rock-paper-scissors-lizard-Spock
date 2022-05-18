@@ -5,16 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-
+        <div class="header">
+            <h1 class="game-titel">RPSLS</h1>
+        </div>
     </header>
     <main>
+        <div id="game_board">
+            <div id="player-choice">
+            </div>
+            <div id="the-winner-section">
+            </div>
+            <div id="computer-choice">
+            </div>
+        </div>
+        <div id="players">
+            <div id="player-one">
+                <button value="rock" class="player-buttons" id="Rock">Rock</button>
+                <button value="paper" class="player-buttons" id="Paper">Paper</button>
+                <button value="scissor" class="player-buttons" id="Scissor">Scissor</button>
+                <button value="lizard" class="player-buttons" id="Lizard">Lizard</button>
+                <button value="spock" class="player-buttons" id="Spock">Spock</button>
+            </div>
+            <div id="computer">
+                <button class="computer-button" id="reset-game">Reset</button>
+            </div>
+        </div>
+
 
     </main>
-    
-    <script src="/js/script.js"></script>
+
+    <script src="js/script.js"></script>
 </body>
 </html>

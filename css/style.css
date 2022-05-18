@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  border: 1px solid red;
+  text-align: center;
+}
+
+#game_board {
+  border: 1px solid red;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+}
+#game_board #player-choice {
+  border: 1px solid red;
+  width: 5rem;
+  margin: 2rem;
+  padding: 1rem;
+}
+#game_board #the-winner-section {
+  border: 1px solid red;
+  width: 5rem;
+  margin: 2rem;
+  padding: 1rem;
+}
+#game_board #computer-choice {
+  border: 1px solid red;
+  width: 5rem;
+  margin: 2rem;
+  padding: 1rem;
+}
+
+#players {
+  border: 1px solid red;
+  height: 40vh;
+  display: flex;
+  justify-content: space-around;
+}
+#players #player-one {
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+}
+#players #player-one .player-buttons {
+  margin: 0.2rem;
+  color: #ebe7de;
+  font-weight: bold;
+  font-size: 1.2rem;
+  background: #d05227;
+  width: 7rem;
+  height: 3rem;
+  border-radius: 10px;
+}
+#players #computer {
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+}
+#players #computer .computer-button {
+  margin: 0.2rem;
+  color: #ebe7de;
+  font-weight: bold;
+  font-size: 1.2rem;
+  background: #d05227;
+  width: 7rem;
+  height: 3rem;
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
