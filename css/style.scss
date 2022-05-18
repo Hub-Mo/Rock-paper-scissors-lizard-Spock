@@ -12,37 +12,50 @@
 
 /////////// header styling /////////////////
 .header {
-    border: 1px solid red;
     text-align: center;
 }
 //////////////// the game view place styling /////////////////////////
 #game_board {
-    border: 1px solid red;
     height: 50vh;
     display: flex;
     justify-content: center;
 
         /////////////// player choice section ////////////////////////
-        #player-choice {
-            border: 1px solid red;
-            width: 5rem;
+        #player-choice-div {
+            width: 15rem;
             margin: 2rem;
             padding:1rem;
+            text-align: center;
+                #player-choice {
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 7rem;
+                }
         }
         /////////// the winner section styling /////////////////////////
         #the-winner-section {
-            border: 1px solid red;
-            width: 5rem;
+            text-align: center;
+            width: 40rem;
             margin: 2rem;
             padding:1rem;
+            #points-container {
+                display: flex;
+                justify-content: space-around;
+                margin: 4rem;
+            }
 
         }
         //////////////// computer choice section styling ////////////////////
-        #computer-choice {
-            border: 1px solid red;
-            width: 5rem;
+        #computer-choice-div {
+            width: 15rem;
             margin: 2rem;
             padding:1rem;
+            text-align: center;
+                #computer-choice {
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 7rem;
+                }
 
         }
 
@@ -50,14 +63,12 @@
 
 // ///////////////// styling the players section ///////////////////////////
 #players {
-    border: 1px solid red;
     height: 40vh;
     display: flex;
     justify-content: space-around;
 
     //////////////////////////// player styling //////////////////////////////////////
         #player-one {
-            border: 1px solid red;
             display: flex;
             align-items: center;
             //////////////////// player buttons styling /////////////
@@ -74,7 +85,6 @@
         }
     //////////////////////// computer styling //////////////////////////////////////////
         #computer {
-            border: 1px solid red;
             display: flex;
             align-items: center;
             ////////////// computer buttons styling ///////////////

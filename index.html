@@ -8,20 +8,41 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!-- ------------ hrader ----------------- -->
     <header>
         <div class="header">
             <h1 class="game-titel">RPSLS</h1>
         </div>
     </header>
     <main>
+        <!-- --------player board ---------------- -->
         <div id="game_board">
-            <div id="player-choice">
+            <div id="player-choice-div">
+                <h2>player</h2>
+                <h3 id="player-choice">random</h3>
             </div>
+            <!-- -------- the winner board section ----------- -->
             <div id="the-winner-section">
+                <h2 id="stats-header" >stats</h2>
+                <p id="referee"></p>
+                <div id="points-container">
+                    <div id="player-container" >
+                        <h3>player</h3>
+                        <h3 id="player-points">0</h3>
+                    </div>
+                    <div id="computer-container">
+                        <h3>computer</h3>
+                        <h3 id="computer-points">0</h3>
+                    </div>
+                </div>
             </div>
-            <div id="computer-choice">
+            <!-- ------- the computer board section -------------- -->
+            <div id="computer-choice-div">
+                <h2>computer</h2>
+                <h3 id="computer-choice">random</h3>
             </div>
         </div>
+        <!-- ---------------player buttons ------------------ -->
         <div id="players">
             <div id="player-one">
                 <button value="rock" class="player-buttons" id="Rock">Rock</button>

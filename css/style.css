@@ -3,43 +3,54 @@
 }
 
 .header {
-  border: 1px solid red;
   text-align: center;
 }
 
 #game_board {
-  border: 1px solid red;
   height: 50vh;
   display: flex;
   justify-content: center;
 }
-#game_board #player-choice {
-  border: 1px solid red;
-  width: 5rem;
+#game_board #player-choice-div {
+  width: 15rem;
   margin: 2rem;
   padding: 1rem;
+  text-align: center;
+}
+#game_board #player-choice-div #player-choice {
+  display: flex;
+  justify-content: center;
+  margin-top: 7rem;
 }
 #game_board #the-winner-section {
-  border: 1px solid red;
-  width: 5rem;
+  text-align: center;
+  width: 40rem;
   margin: 2rem;
   padding: 1rem;
 }
-#game_board #computer-choice {
-  border: 1px solid red;
-  width: 5rem;
+#game_board #the-winner-section #points-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 4rem;
+}
+#game_board #computer-choice-div {
+  width: 15rem;
   margin: 2rem;
   padding: 1rem;
+  text-align: center;
+}
+#game_board #computer-choice-div #computer-choice {
+  display: flex;
+  justify-content: center;
+  margin-top: 7rem;
 }
 
 #players {
-  border: 1px solid red;
   height: 40vh;
   display: flex;
   justify-content: space-around;
 }
 #players #player-one {
-  border: 1px solid red;
   display: flex;
   align-items: center;
 }
@@ -54,7 +65,6 @@
   border-radius: 10px;
 }
 #players #computer {
-  border: 1px solid red;
   display: flex;
   align-items: center;
 }
