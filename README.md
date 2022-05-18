@@ -1,5 +1,7 @@
 # Rock-paper-scissors-lizard-Spock
 
+[check it out](https://hub-mo.github.io/Rock-paper-scissors-lizard-Spock/)
+
 ## The rules
 * Scissors cut Paper
 * Paper covers Rock
