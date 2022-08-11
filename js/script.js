@@ -13,6 +13,7 @@ let computerPoints = document.getElementById('computer-points');
 let player = 0;
 let computer = 0;
 
+
 let Reset = document.getElementById('reset-game').addEventListener('click', () => {
     location.reload();
 })
